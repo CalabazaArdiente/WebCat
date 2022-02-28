@@ -1,22 +1,24 @@
 {
-  "name": "webcat",
+  "name": "WebCat",
   "version": "1.0.0",
-  "description": "Catch up customer information entered in the system at real time. Create groups of tastes by analysing the catched information.",
-  "main": "App.js",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "firebase": "^9.6.7"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "git+https://github.com/Isveth/WebCat.git"
   },
-  "author": "Isveth Alfonso",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Isveth/WebCat/issues"
   },
-  "homepage": "https://github.com/Isveth/WebCat#readme",
-  "dependencies": {
-    "firebase": "^9.6.7"
-  }
+  "homepage": "https://github.com/Isveth/WebCat#readme"
 }
